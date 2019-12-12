@@ -1,0 +1,36 @@
+html, body{
+    position: relative;
+    height: 100%;
+    background: black;
+    margin: 0;
+}
+
+.swiper-container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.swiper-slide{
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 8em 3em;
+    color: white;
+    background-size: cover !important;
+}
+
+.slide1{
+    background: url('../images/D1.jpg');
+}
+
+.slide2{
+    background: url('../images/D2.jpg');
+}
+
+.slide3{
+    background: url('../images/D3.jpg');
+}
+
+.slide4{
+    background: url('../images/D4.jpg');
+}
